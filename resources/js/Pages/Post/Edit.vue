@@ -6,7 +6,7 @@
         </div>
         <form @submit.prevent="update">
             <div class="mb-4">
-                <input v-model="title" class="rounded-full border-gray-300 w-full" type="text" placeholder="titlle">
+                <input v-model="title" class="rounded-full border-gray-300 w-full" type="text" placeholder="title">
             </div>
             <div>
                 <textarea v-model="content" class="rounded-full border-gray-300 w-full" placeholder="content"> </textarea>
